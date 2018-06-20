@@ -1,0 +1,1 @@
+package com.interest.mm.borrowinginterest;import android.app.Application;import android.content.Context;/** * Created by Bobozai09 on 2018/6/19. */public class MyApplication extends Application {    public static Context mContext;    public static Context init(Context c){        if (mContext==null){            mContext=c;        }        return mContext;    }}
